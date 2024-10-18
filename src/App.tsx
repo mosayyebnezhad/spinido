@@ -1,17 +1,21 @@
 
 import './App.css'
-import Greet from './component/Greet';
+import './main.css'
+import Beat from './component/Beat/Beat';
+import BeatDynamic from './component/BeatDynamic/BeatDynamic';
 
 function App() {
 
 
   return (
-    <>
-      <Greet name='njoku' />
+    <div className='flex flex-wrap w-full justify-center mt-24'>
 
+      <Beat />
+      <div className='w-full'></div>
+      <BeatDynamic />
 
-      <div className='bg-red-400'> hello again</div>
-    </>
+    </div>
+
   )
 }
 

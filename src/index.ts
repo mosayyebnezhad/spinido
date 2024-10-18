@@ -1,4 +1,4 @@
-import Greet from "./component/Greet";
+import Beat from "./component/Beat/Beat"
+import BeatDynamic from "./component/BeatDynamic/BeatDynamic"
 
-
-export {Greet}
+export { Beat, BeatDynamic }

@@ -1,3 +1,172 @@
-.s{
-    background: gray;
+/* ---------------Beat-------------------- */
+
+
+
+.Beat {
+    display: flex;
+    align-items: center;
+    /* background: rgb(56, 32, 78); */
+    justify-content: center;
+
+    .circle {
+        width: 30%;
+        height: 30%;
+        /* background: rgb(34, 19, 19); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .animate {
+        animation: puff .75s infinite;
+        background: red;
+        border-radius: 100%;
+    }
+
 }
+
+@keyframes puff {
+    0% {
+        width: 0;
+        height: 0;
+    }
+
+    50% {
+        width: 50%;
+        height: 50%;
+    }
+
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+
+/* --------------------------------------------- */
+
+
+/* -----------------------Beat Dunamic----------------------------- */
+
+
+.BeatDynamic {
+    display: flex;
+    align-items: center;
+    /* background: rgb(56, 32, 78); */
+    justify-content: center;
+
+    .circle {
+        width: 20%;
+        height: 20%;
+        /* background: rgb(34, 19, 19); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .animate {
+
+
+        background: red;
+        border-radius: 100%;
+    }
+
+    .d1 {
+        animation: puff1 .75s infinite ease-out;
+    }
+
+    .d2 {
+        animation: puff2 .75s infinite ease-out;
+        ;
+    }
+
+    .d3 {
+        animation: puff3 .75s infinite ease-out;
+        ;
+    }
+
+    .d4 {
+        animation: puff4 .75s infinite ease-out;
+        ;
+    }
+
+}
+
+@keyframes puff1 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+
+    12.5% {
+        width: 50%;
+        height: 50%;
+    }
+
+    30% {
+        width: 0;
+        height: 0;
+    }
+
+
+}
+
+@keyframes puff2 {
+    12.5% {
+        width: 0;
+        height: 0;
+    }
+
+    37.5% {
+        width: 50%;
+        height: 50%;
+    }
+
+    55% {
+        width: 0;
+        height: 0;
+    }
+
+
+}
+
+@keyframes puff3 {
+
+
+    37.5% {
+        width: 0;
+        height: 0;
+    }
+
+    62.5% {
+        width: 50%;
+        height: 50%;
+    }
+
+    80% {
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes puff4 {
+    62.5% {
+        width: 0;
+        height: 0;
+    }
+
+    87.5% {
+        width: 50%;
+        height: 50%;
+    }
+
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+
+}
+
+/* ----------------------------------------------------------- */

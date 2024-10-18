@@ -1,0 +1,13 @@
+/src
+/node_module
+/public
+
+.env
+.eslintrc.cjs
+.DS_Store
+
+index.html
+tscongif.json
+tscongif.node.json
+tsup.congif.ts
+vite.congif.ts
